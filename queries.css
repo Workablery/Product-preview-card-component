@@ -1,0 +1,26 @@
+@media (min-width: 38em) {
+    .card-container {
+        flex-direction: row;
+        min-width: 60rem;
+        min-height: 45rem;
+    }
+
+    .img-box {
+        max-height: 45rem;
+        min-width: 30rem;
+    }
+
+    .hero-img {
+        content: url(images/image-product-desktop.jpg);
+    }
+
+    .content-box {
+        padding: 3.2rem;
+        justify-content: space-between;
+    }
+
+    .cta-cart:link,
+    .cta-cart:visited {
+        padding: 1.5rem 6.2rem;
+    }
+}

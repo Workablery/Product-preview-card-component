@@ -1,0 +1,138 @@
+/* ********** */
+/* GENERAL SETTINGS */
+/* ********** */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+  html {
+    font-size: 62.5%;
+}
+
+body {
+   background-color: #F2EAE2;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   font-size: 1.4rem;
+   letter-spacing: 0;
+   line-height: 2.3rem;
+   
+}
+  
+/* ********** */
+/* GENERAL REUSABLE COMPONENTS */
+/* ********** */
+
+.overline {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    
+}
+
+.display {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+    letter-spacing: 0;
+    line-height: 3.2rem;
+}
+
+.button-text {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+
+/* ********** */
+/* HERO SECTION */
+/* ********** */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 34.3rem;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.img-box {
+    max-height: 24rem;
+}
+
+.hero-img {
+    display: block;
+    width: 100%;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    padding: 2.4rem;
+}
+
+.subheading {
+    color: #6C7289;
+}
+
+.primary-heading {
+    color: #1C232B;
+    padding-top: 1.2rem;
+}
+
+.perfume-description {
+    color: #6C7289;
+    padding-top: 1.6rem;
+}
+
+.prices-container {
+    display: flex;
+    gap: 1.9rem;
+    padding-top: 2.4rem;
+    padding-bottom: 2rem;
+}
+
+.promote-price {
+    color: #3D8168;
+}
+
+.usual-price {
+    font-size: 1.3rem;
+    color: #6C7289;
+    text-decoration: line-through;
+}
+
+.cta-cart:link,
+.cta-cart:visited {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #3D8168;
+    border-radius: 1rem;
+    padding: 1.5rem 9.2rem;
+    transition: all 0.3s;
+}
+
+.cta-cart:hover,
+.cta-cart:active {
+    background-color: #1A4032;
+}
+
+.cart-icon {
+    margin-right: 0.5rem;
+}
