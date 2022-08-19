@@ -10,8 +10,13 @@
         min-width: 30rem;
     }
 
-    .hero-img {
-        content: url(images/image-product-desktop.jpg);
+    .hero-img-mobile {
+        display: none;
+    }
+
+    .hero-img-desktop {
+        display: block;
+        width: 100%;
     }
 
     .content-box {
