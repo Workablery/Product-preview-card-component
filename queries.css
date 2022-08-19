@@ -10,15 +10,6 @@
         min-width: 30rem;
     }
 
-    .hero-img-mobile {
-        display: none;
-    }
-
-    .hero-img-desktop {
-        display: block;
-        width: 100%;
-    }
-
     .content-box {
         padding: 3.2rem;
         justify-content: space-between;

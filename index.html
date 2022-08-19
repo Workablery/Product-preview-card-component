@@ -19,8 +19,10 @@
   <section class="hero-section">
     <div class="card-container">
       <div class="img-box">
-        <img class="hero-img-mobile" src="images/image-product-mobile.jpg" alt="Chanel gabrielle perfume bottle">
-        <img class="hero-img-desktop" src="images/image-product-desktop.jpg" alt="Chanel gabrielle perfume bottle">
+        <picture>
+          <source media="(min-width: 38em)" srcset="images/image-product-desktop.jpg">
+          <img class="hero-img" src="images/image-product-mobile.jpg" alt="Chanel gabrielle perfume bottle">
+        </picture>
       </div>
       <div class="content-box">
         <span class="overline subheading">PERFUME</span> 

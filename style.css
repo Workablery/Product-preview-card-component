@@ -76,13 +76,8 @@ body {
     max-height: 24rem;
 }
 
-.hero-img-mobile {
+.hero-img {
     display: block;
-    width: 100%;
-}
-
-.hero-img-desktop {
-    display: none;
     width: 100%;
 }
 
